@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PKUWalkerHost</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="p_setting_crack">破解功能</string>
+    <string name="p_setting_crack_export">导出 data.db </string>
+    <string name="p_setting_crack_import">导入 data.db</string>
+</resources>

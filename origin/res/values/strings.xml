@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a_login_button_text">IAAA 登录</string>
+    <string name="a_login_canceled">登录已取消</string>
+    <string name="a_login_embed_title">PKU RUNNER</string>
+    <string name="a_login_fail">登录失败</string>
+    <string name="a_login_login_to_server_error">与 PKU Runner 服务器通讯失败 %s</string>
+    <string name="a_login_logining_to_server">正在与 PKU Runner 服务器取得联系……</string>
+    <string name="a_login_offline_button_text">离线登录</string>
+    <string name="a_login_offline_existing_cancel">取消</string>
+    <string name="a_login_offline_existing_choose_one">请选择您的身份</string>
+    <string name="a_login_offline_existing_error">大事不妙！请速速联系开发者！%s</string>
+    <string name="a_login_offline_invalid">请输入名字并选择合适的性别</string>
+    <string name="a_login_old_user">旧用户</string>
+    <string name="a_login_version_dialog_content">很抱歉，该版本的 PKU Runner 已经太旧（或者 bug 太多），请点击下载最新版本。</string>
+    <string name="a_login_version_dialog_negative_button">稍后更新</string>
+    <string name="a_login_version_dialog_positive_button">下载链接</string>
+    <string name="a_login_version_dialog_title">请更新您的客户端！</string>
+    <string name="a_main_error_loading_data">数据加载异常！%s</string>
+    <string name="a_main_error_loading_status">加载用户里程失败！原因：%s</string>
+    <string name="a_main_error_loading_weather">天气加载失败！%s</string>
+    <string name="a_main_exit_dialog_content">此时退出会导致本次跑步记录消失</string>
+    <string name="a_main_exit_dialog_negative">取消</string>
+    <string name="a_main_exit_dialog_positive">确定退出</string>
+    <string name="a_main_exit_dialog_title">提示</string>
+    <string name="a_main_exit_press_again">再按一次后退键退出程序</string>
+    <string name="a_main_logout_dialog_content">注销后未上传的跑步记录可能丢失，如果不确定如何操作请迅速联系开发组！</string>
+    <string name="a_main_logout_dialog_negative">取消</string>
+    <string name="a_main_logout_dialog_positive">确定注销</string>
+    <string name="a_main_logout_dialog_title">请注意</string>
+    <string name="a_main_update_action">现在更新</string>
+    <string name="a_main_update_notice">检测到新版本</string>
+    <string name="a_main_weather_abnormal_format" formatted="false">"以下是天气信息：
+城市\u0009\u0009%s
+天气情况\u0009%s
+风向\u0009\u0009%s
+空气质量\u0009%s
+运动建议\u0009空气质量较差，尽量避免在室外长时间活动。"</string>
+    <string name="a_main_weather_format" formatted="false">"以下是天气信息：
+城市\u0009\u0009%s
+天气情况\u0009%s
+风向\u0009\u0009%s
+空气质量\u0009%s
+运动建议\u0009%s\u0009%s"</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">PKURunner</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cancel">取 消</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="d_token_invalid_dialog_content">很抱歉，您的登录状态已经失效，常常可能是由在第二台设备上登录引起的。您可以注销账号并重新登录，或者可以通过直接上传未上传的记录来重新激活登录状态。</string>
+    <string name="d_token_invalid_dialog_positive_button">了解了</string>
+    <string name="d_token_invalid_dialog_title">登录状态已失效！</string>
+    <string name="define_appintro" />
+    <string name="done_button">DONE</string>
+    <string name="e_server_0">成功</string>
+    <string name="e_server_1">不能重复验证</string>
+    <string name="e_server_10">记录无效（测试用）</string>
+    <string name="e_server_11">场馆无效</string>
+    <string name="e_server_12">未找到序列</string>
+    <string name="e_server_13">未找到索引</string>
+    <string name="e_server_14">无权限访问</string>
+    <string name="e_server_15">您的客户端过旧无法兼容，请及时升级</string>
+    <string name="e_server_16">服务器忙碌</string>
+    <string name="e_server_17">未找到活动</string>
+    <string name="e_server_18">无照片</string>
+    <string name="e_server_19">标题无效</string>
+    <string name="e_server_2">失败次数过多</string>
+    <string name="e_server_20">限制无效</string>
+    <string name="e_server_21">被管理员拒绝</string>
+    <string name="e_server_22">性别无效</string>
+    <string name="e_server_23">跑步时间不合格</string>
+    <string name="e_server_3">登录已失效</string>
+    <string name="e_server_4">记录已上传过</string>
+    <string name="e_server_5">记录未找到</string>
+    <string name="e_server_6">登录连接失败</string>
+    <string name="e_server_7">跑步里程不合格</string>
+    <string name="e_server_8">跑步速度不合格</string>
+    <string name="e_server_9">跑步位置不合格</string>
+    <string name="e_server_n1">未知错误</string>
+    <string name="enter_msgcode">请输入手机验证码！</string>
+    <string name="enter_otpcode">请输入动态口令！</string>
+    <string name="enter_username_passwd">请输入学号/职工号/北大邮箱！</string>
+    <string name="error">错误</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="f_list_loading">正在加载......</string>
+    <string name="f_list_no_data_notice">列表为空！</string>
+    <string name="f_map_format_distance">%.1f</string>
+    <string name="f_map_format_distance_sci">%.1e</string>
+    <string name="f_map_format_speed">%.1f</string>
+    <string name="f_map_format_speed_sci">%.1e</string>
+    <string name="f_map_format_time_long" formatted="false">%02d:%02d:%02d</string>
+    <string name="f_map_format_time_sci">%.1e</string>
+    <string name="f_map_format_time_short" formatted="false">%02d:%02d</string>
+    <string name="f_map_hint_distance_normal">里程 km</string>
+    <string name="f_map_hint_distance_sci">里程 lP</string>
+    <string name="f_map_hint_gps_info">正在搜索GPS…</string>
+    <string name="f_map_hint_speed_main">速度 %s</string>
+    <string name="f_map_hint_time_normal">时间</string>
+    <string name="f_map_hint_time_sci">时间 tP</string>
+    <string name="f_map_pause">暂停</string>
+    <string name="f_map_resume">继续</string>
+    <string name="f_map_run">跑步</string>
+    <string name="f_map_stop">结束</string>
+    <string name="f_offline_female">女</string>
+    <string name="f_offline_gender">性别</string>
+    <string name="f_offline_male">男</string>
+    <string name="f_offline_name">姓名</string>
+    <string name="f_permission_auth_now">立刻授权</string>
+    <string name="f_permission_btn_ok">了解</string>
+    <string name="f_permission_content">"打电话和外部储存权限都是(烦人的)高德地图模块要的。
+像我们这么良心的软件，当然只要一个位置信息权限啦。"</string>
+    <string name="f_permission_location">位置信息权限 %s</string>
+    <string name="f_permission_not_auth">暂不授权</string>
+    <string name="f_permission_phone">电话权限 %s</string>
+    <string name="f_permission_sd">外部储存权限 %s</string>
+    <string name="f_permission_status_negative">&lt;font color=#FF3333>未获得&lt;/font></string>
+    <string name="f_permission_status_positive">&lt;font color=#33FF33>已获得&lt;/font></string>
+    <string name="f_permission_title">权限授予说明与状态</string>
+    <string name="f_record_detail_lap_anticlockwise">逆时针</string>
+    <string name="f_record_detail_lap_clockwise">顺时针</string>
+    <string name="f_record_detail_lap_count" formatted="false">%s %d 圈</string>
+    <string name="f_record_detail_lap_zero">不足一圈</string>
+    <string name="f_record_detail_speed">%.1f m/s</string>
+    <string name="f_record_detail_status_offline">离线</string>
+    <string name="f_record_detail_status_ok">已上传，合格</string>
+    <string name="f_record_detail_status_unuploaded">未上传</string>
+    <string name="f_record_detail_status_verified_fail">验证失败，原因：%s</string>
+    <string name="f_record_detail_step_count">%d 步</string>
+    <string name="f_record_detail_track_end">结束位置</string>
+    <string name="f_record_detail_track_pause">暂停位置</string>
+    <string name="f_record_detail_track_resume">继续位置</string>
+    <string name="f_record_detail_track_start">开始位置</string>
+    <string name="f_record_dialog_negative">取消</string>
+    <string name="f_record_dialog_positive">确定</string>
+    <string name="f_record_error_login_cancelled">登录已取消</string>
+    <string name="f_record_error_login_fail">登录失败</string>
+    <string name="f_record_error_start_camera">无法启动相机！请确保手机上至少有一个相机软件</string>
+    <string name="f_record_ignore_photo">忽略</string>
+    <string name="f_record_start_camera">开始拍照</string>
+    <string name="f_record_use_last_photo">使用上次照片</string>
+    <string name="f_task_complete_dialog_ok">确定</string>
+    <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="g_main_c_feedback">我们不会放过任何一条吐槽小能手们的意见和建议</string>
+    <string name="g_main_c_pull_down">上传过的数据将会保留在服务端</string>
+    <string name="g_main_c_switch_to_running">或者也可以从侧边抽屉中选择菜单条目</string>
+    <string name="g_main_t_feedback">反馈传送门</string>
+    <string name="g_main_t_pull_down">下拉刷新</string>
+    <string name="g_main_t_switch_to_running">进入跑步界面</string>
+    <string name="g_record_c_delete">不小心生成了不想要的跑步记录？没问题！左滑即可删除</string>
+    <string name="g_record_c_detail">点击记录可以查看跑步记录的详细信息</string>
+    <string name="g_record_c_upload">将会跳转到拍照和身份验证界面</string>
+    <string name="g_record_t_delete">向左滑动以删除</string>
+    <string name="g_record_t_detail">记录详情在这里</string>
+    <string name="g_record_t_upload">上传您的记录</string>
+    <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_msgcode">手机验证码</string>
+    <string name="hint_otpcode">动态口令</string>
+    <string name="hint_passwd">密码</string>
+    <string name="hint_username">学号/职工号</string>
+    <string name="i_refreshing_weather">正在刷新天气</string>
+    <string name="library_appintro_author">Paolo Rotolo</string>
+    <string name="library_appintro_authorWebsite">http://paolorotolo.github.io/</string>
+    <string name="library_appintro_classPath">com.github.paolorotolo.appintro</string>
+    <string name="library_appintro_isOpenSource">true</string>
+    <string name="library_appintro_libraryDescription">AppIntro is a library for making a cool intro in your Android apps.</string>
+    <string name="library_appintro_libraryName">AppIntro</string>
+    <string name="library_appintro_libraryVersion">3.2.0</string>
+    <string name="library_appintro_libraryWebsite">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="library_appintro_licenseId">apache_2_0</string>
+    <string name="library_appintro_repositoryLink">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="login">登 录</string>
+    <string name="m_auth_manage">权限管理</string>
+    <string name="m_f_recordlist_clear">清除片段偏好</string>
+    <string name="m_feed_back">反馈</string>
+    <string name="m_group_other">其它</string>
+    <string name="m_keep_locating">保持定位</string>
+    <string name="m_log_out">注销</string>
+    <string name="m_main_clear">清除主页偏好</string>
+    <string name="m_map_return">返回记录页</string>
+    <string name="m_monitor_gps">监测GPS状态</string>
+    <string name="m_run">跑步</string>
+    <string name="m_running_records">跑步记录</string>
+    <string name="m_settings">设置</string>
+    <string name="m_task_clear_20180420">清除 20180420</string>
+    <string name="m_tasks">任务</string>
+    <string name="m_update">更新</string>
+    <string name="m_weather">天气</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="notice">提示</string>
+    <string name="ok">OK</string>
+    <string name="p_map_dialog_content">是否终止跑步？</string>
+    <string name="p_map_dialog_negative">人家点错啦</string>
+    <string name="p_map_dialog_positive">是</string>
+    <string name="p_map_dialog_title">提示</string>
+    <string name="p_map_error_auto_save_record">记录自动备份失败!数据库异常：%s</string>
+    <string name="p_map_error_gps_not_enabled">GPS未开启</string>
+    <string name="p_map_error_invalid_speed">检测到您的速度异常，请检查GPS状态或暂停运动</string>
+    <string name="p_map_error_mock_location">请关闭模拟定位</string>
+    <string name="p_map_error_other">%s</string>
+    <string name="p_map_error_provide_track">"跑步轨迹添加失败!请联系开发者
+%s"</string>
+    <string name="p_map_error_save_record">记录保存失败!数据库异常：%s</string>
+    <string name="p_map_error_strange">未知错误：%s</string>
+    <string name="p_map_gps_info" formatted="false">"可用卫星：%d
+总卫星数：%d
+信号强度：%f"</string>
+    <string name="p_map_gps_weak">GPS信号弱！</string>
+    <string name="p_map_interrupted_running">上一次跑步被中断了！已添加记录</string>
+    <string name="p_map_locating_accuracy_fail">精度不足，定位失败</string>
+    <string name="p_map_long_press_to_finish">请长按来完成操作</string>
+    <string name="p_map_long_press_to_pause">请长按来完成操作</string>
+    <string name="p_map_no_interrupted_running">很好，上一次没出事情。</string>
+    <string name="p_map_notice_auto_save">记录自动保存成功</string>
+    <string name="p_map_pace_unsupported">看起来您的手机不支持统计步数，还需要提高一下硬件水平啊！</string>
+    <string name="p_map_pause_running">暂停跑步</string>
+    <string name="p_map_record_saved">记录已保存！</string>
+    <string name="p_map_resume_running">继续跑步</string>
+    <string name="p_map_start_running">开始跑步</string>
+    <string name="p_map_try_locating">正在尝试定位</string>
+    <string name="p_map_try_locating_accuracy">正在尝试定位，精度%s</string>
+    <string name="p_record_delete_canceled">已取消</string>
+    <string name="p_record_delete_content">确定要删除这条记录吗？</string>
+    <string name="p_record_delete_error">删除记录失败，错误原因：%s</string>
+    <string name="p_record_delete_error_other">删除记录失败，错误原因：未知</string>
+    <string name="p_record_delete_success">删除记录成功</string>
+    <string name="p_record_delete_title">提示</string>
+    <string name="p_record_detail_error">数据库错误，无法找到记录</string>
+    <string name="p_record_detail_error_track">无法加载跑步轨迹：%s</string>
+    <string name="p_record_error_database">数据库异常：%s</string>
+    <string name="p_record_error_other">%s</string>
+    <string name="p_record_error_server">与PKURunner服务器通讯失败：%s</string>
+    <string name="p_record_error_version_low">您的客户端版本过旧无法使用，请在侧边栏“反馈”链接中下载最新版本</string>
+    <string name="p_record_photo_error_compress">压缩照片失败</string>
+    <string name="p_record_photo_error_file">文件异常。详细原因：%s</string>
+    <string name="p_record_photo_error_no_last">你还未拍摄过照片呢！</string>
+    <string name="p_record_photo_error_take">拍照失败！请联系开发者</string>
+    <string name="p_record_prepare_take_photo_message">请站到光线充足的位置准备自拍。当自拍完成后将自动跳转密码验证界面，验证完毕后将上传本数据。</string>
+    <string name="p_record_prepare_take_photo_title">准备上传</string>
+    <string name="p_record_sync_data_fail">无法从服务器获取数据！%s</string>
+    <string name="p_record_sync_data_success">成功从服务器获取数据</string>
+    <string name="p_record_verify_failure">失败</string>
+    <string name="p_record_verify_result" formatted="false">上传成功！验证结果：%s %s</string>
+    <string name="p_record_verify_success">成功</string>
+    <string name="p_record_waiting_message_after_sdk">正在同步数据</string>
+    <string name="p_record_waiting_message_before_sdk">准备上传记录，正在跳转登录界面…</string>
+    <string name="p_setting_about">关于</string>
+    <string name="p_setting_about_text">由北大人自己写的跑步 app ，旨在提供更好的跑步体验</string>
+    <string name="p_setting_clear_photos">清理无用照片</string>
+    <string name="p_setting_connecting_to_dropbox">连接到 Dropbox</string>
+    <string name="p_setting_dropbox_title">Dropbox</string>
+    <string name="p_setting_gender">性别</string>
+    <string name="p_setting_intro">引导页</string>
+    <string name="p_setting_name">姓名</string>
+    <string name="p_setting_photo_deleted">删除了多余的皂片！</string>
+    <string name="p_setting_settings">设置</string>
+    <string name="p_setting_storage">存储与备份</string>
+    <string name="p_setting_storage_connecting">网络连接超时</string>
+    <string name="p_setting_storage_sockettimeout">网络连接超时</string>
+    <string name="p_setting_storage_summary">点击查看详情</string>
+    <string name="p_setting_storage_user" formatted="false">%s；已用 %s，总空间 %s</string>
+    <string name="p_setting_unit">显示使用的单位制</string>
+    <string name="p_setting_unit_dialog">请选择您习惯的单位制</string>
+    <string name="p_setting_user">用户信息</string>
+    <string name="p_setting_version_name">版本号</string>
+    <string name="p_settings_title">设置</string>
+    <string name="p_task_data_failure">无法从服务器获取数据</string>
+    <string name="p_task_data_success">成功从服务器获取数据</string>
+    <string name="p_task_dialog_congratulation_content">要坚持不懈哦！</string>
+    <string name="p_task_dialog_congratulation_title">恭喜你完成了本任务！</string>
+    <string name="p_task_has_signed_up">你已经报过名了！</string>
+    <string name="p_task_offline_unusable">离线用户暂时无法使用任务功能。</string>
+    <string name="p_task_sign_up_failure">报名失败！原因：%s</string>
+    <string name="p_task_sign_up_success">报名成功！</string>
+    <string name="p_task_source_github">Github托管</string>
+    <string name="p_task_source_school">学校服务器</string>
+    <string name="p_task_source_title">任务列表获取地址</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="s_return_to_main">点击此提示以返回主界面</string>
+    <string name="s_running">正在跑步</string>
+    <string name="search_menu_title">Search</string>
+    <string name="sendcode">发送验证码</string>
+    <string name="sendcode_wait">发送等待:</string>
+    <string name="skip_button">SKIP</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_finished">已完成</string>
+    <string name="status_inactive_prompt">现在没有打卡任务，进度条睡着了……</string>
+    <string name="status_loading_text">加载中……</string>
+    <string name="status_main_day" formatted="false">天数 %d / %d</string>
+    <string name="status_main_distance" formatted="false">里程(km) %.1f / %.1f %s</string>
+    <string name="status_offline">PKU Runner 已经陪伴您跑过 %d 公里</string>
+    <string name="status_post_duration" formatted="false">"%s
+上一次打卡已于 %d 天前（%s）结束了"</string>
+    <string name="status_pre_duration" formatted="false">"%s
+下一次打卡将在 %d 天后（%s）开始"</string>
+    <string name="status_prefinished">完成 %d 次</string>
+    <string name="success">成功</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="title_activity_login">PKU iAAA</string>
+    <string name="userlogin">用户登录</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="v_activity_20180420_blue">蓝队</string>
+    <string name="v_activity_20180420_red">红队</string>
+    <string name="v_record_card_distance_format">%.2f</string>
+    <string name="v_record_card_duration_format" formatted="false">%s - %s</string>
+    <string name="v_record_km">km</string>
+    <string name="v_task_action_cheers">我完成了！</string>
+    <string name="v_task_action_sign_up">立即报名</string>
+    <string name="v_task_detail" formatted="false">"开始时间\u0009\u0009%s
+结束时间\u0009\u0009%s
+状态\u0009\u0009%s
+目前完成\u0009\u0009%.2f km
+目标\u0009\u0009%s km
+进度\u0009\u0009%s%%"</string>
+    <string name="v_task_detail_hint">详细信息</string>
+    <string name="v_task_detail_without_time" formatted="false">"状态\u0009\u0009%s
+目前完成\u0009\u0009%.2f km
+目标\u0009\u0009%s km
+进度\u0009\u0009%s%%"</string>
+    <string name="v_task_status_after_end">已结束</string>
+    <string name="v_task_status_before_start">未开始</string>
+    <string name="v_task_status_completed">已完成</string>
+    <string name="v_task_status_ongoing">正在进行</string>
+    <string name="v_task_status_text_without_time" formatted="false">%s / %s ~ %s</string>
+    <string name="v_task_status_unsigned">尚未报名</string>
+    <string name="wrong_msgcode">错误的手机验证码！</string>
+    <string name="wrong_otpcode">错误的动态口令！</string>
+    <string name="wrong_username_passwd">学号/职工号/北大邮箱错误！</string>
+</resources>

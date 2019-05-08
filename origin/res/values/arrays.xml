@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a_intro_content">
+        <item>"支持内网 轨迹精确
+简单刷脸 专注运动"</item>
+        <item>"即便不是为了打卡也可以使用 PKU Runner 哦
+可以通过集成的 Dropbox 接口进行数据库的备份"</item>
+        <item>"完成百分比
+进度一目了然"</item>
+        <item>打电话和外部储存权限都是高德地图模块才需要的。像我们这么良心的软件，当然只要一个位置信息权限啦。</item>
+        <item>"极致的用户体验
+诚意之作"</item>
+    </string-array>
+    <string-array name="a_intro_title">
+        <item>跑步打卡</item>
+        <item>支持离线</item>
+        <item>统计整合</item>
+        <item>需要一些权限…</item>
+        <item>PKURunner</item>
+    </string-array>
+    <string-array name="f_map_hint_speed_units">
+        <item>m/s</item>
+        <item>km/h</item>
+        <item>min/km</item>
+        <item>mi/h</item>
+        <item>c</item>
+    </string-array>
+    <string-array name="p_about_easteregg">
+        <item>不要点我了没有彩蛋的</item>
+        <item>不要点了没有彩蛋的</item>
+        <item>不要点了没有蛋的</item>
+        <item>不要点了没蛋的</item>
+        <item>不点了没蛋的</item>
+        <item>点了没蛋的</item>
+        <item>点了没的</item>
+        <item>点了没</item>
+        <item>点没</item>
+        <item>没</item>
+    </string-array>
+    <string-array name="p_setting_gender_display">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="p_setting_gender_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="p_setting_unit_display">
+        <item>m/s 国际单位制从业人员</item>
+        <item>km/h 职业码农和老司机</item>
+        <item>min/km 专业跑者</item>
+        <item>mi/h 水深火热的美帝民众（雾</item>
+        <item>c 我是物理之王</item>
+    </string-array>
+    <string-array name="p_setting_unit_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="p_task_source_entry">
+        <item>@string/p_task_source_school</item>
+        <item>@string/p_task_source_github</item>
+    </string-array>
+    <string-array name="p_task_source_value">
+        <item>pku</item>
+        <item>github</item>
+    </string-array>
+</resources>
