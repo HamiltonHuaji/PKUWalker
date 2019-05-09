@@ -32,4 +32,4 @@ PKU Runner的数据储存于`/data/data/cn.edu.pku.pkurunner/files/data.db`.
 
 ## Thanks
 
-本项目在生成伪造数据部分使用了来自[PKURunningHelper, zhongxinghong](https://github.com/zhongxinghong/PKURunningHelper)的代码.在此提出感谢.
+本项目在生成伪造数据部分使用了来自[PKURunningHelper, zhongxinghong](https://github.com/zhongxinghong/PKURunningHelper)的代码.在此提出感谢.因此`generator/fake.py`应当使用与`PKURunningHelper`相同的许可.除此之外的代码均使用本项目下`LICENSE`文件的许可.
