@@ -28,7 +28,7 @@ PKU Runner的数据储存于`/data/data/cn.edu.pku.pkurunner/files/data.db`.
 
 ## Generate record
 
-在`generator`目录下执行`generator.py`即可看到用法.跟随提示输入即可.
+在`generator`目录下执行`generator.py`即可看到用法.跟随提示输入即可.在只有一个用户时不用选择用户.输入时间时直接按`enter`使用当前时间.输入其他参数时按`enter`使用默认值.
 
 ## Thanks
 

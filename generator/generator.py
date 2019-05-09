@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import sys, os
+import sys, os, time, datetime, random
 import importlib
 
 try:
@@ -58,10 +58,26 @@ if len(sys.argv)==3:
     velocity = 8.0
     frequncy = 120
 else:
-    dateUTC  =   int(input("input time ( UTC, ms )     :\t"))
-    distance = float(input("input distance ( km )      :\t"))
-    velocity = float(input("input velocity ( min/km )  :\t"))
-    frequncy = float(input("input stride frequncy (bpm):\t"))
+    dateUTC  = input("input time (YYYY-MM-DD HH:MM:SS)      :\t")
+    distance = input("input distance ( km )                 :\t")
+    velocity = input("input velocity ( min/km )             :\t")
+    frequncy = input("input stride frequncy (bpm)           :\t")
+    if dateUTC ==  '':
+        dateUTC  = int(time.time()*1000)
+    else:
+        dateUTC  = int(time.mktime(time.strptime(dateUTC, r'%Y-%m-%d %H:%M:%S')))*1000+random.randint(0,999)
+    if distance == '':
+        distance = 6.0
+    else:
+        distance = float(distance)
+    if velocity == '':
+        velocity = 8.0
+    else:
+        velocity = float(velocity)
+    if frequncy == '':
+        frequncy = 120
+    else:
+        frequncy = float(frequncy)
 tracks = fake.Record(distance, velocity, frequncy)
 
 rid = dbm.append_record(cur, uid, dateUTC, tracks.distance*1000, tracks.duration, tracks.step)
