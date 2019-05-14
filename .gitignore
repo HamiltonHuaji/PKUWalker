@@ -8,7 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+build/pkurunner-v1.2.4_res
+build/pkurunner-v1.2.4_patch
 develop-eggs/
 dist/
 downloads/
