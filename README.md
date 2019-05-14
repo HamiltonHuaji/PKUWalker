@@ -9,7 +9,7 @@ PKU Runner的数据储存于`/data/data/cn.edu.pku.pkurunner/files/data.db`.
 
 ## Usage
 
-首先下载`product/pkurunner-v1.2.4_res.apk`,并登录你的账号.
+首先下载`build/pkurunner-v1.2.4_res.apk`,并登录你的账号.
 然后在`设置/破解功能`中选择导出`data.db`.
 生成伪造数据,将被修改过的`data.db`导入App.如果无效果,随意建立临时账户以进入设置,多导入几次即可.
 导入后App由于并不完善,会停止运行(白屏),可以手动清除活动并再次进入.
@@ -24,7 +24,8 @@ PKU Runner的数据储存于`/data/data/cn.edu.pku.pkurunner/files/data.db`.
 ```shell
     make
 ```
-即可.由于`build.py`是随手糊出来的,建议直接使用`product/pkurunner-v1.2.4_res.apk`
+即可.由于`pkurunner.patch`是随手糊出来的,建议直接使用`product/pkurunner-v1.2.4_res.apk`.
+如果想为本项目创建其他的patch,请取消注释`makefile`最后的`make patch`命令.
 
 ## Generate record
 
