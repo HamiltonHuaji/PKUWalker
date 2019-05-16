@@ -34,3 +34,15 @@ PKU Runner的数据储存于`/data/data/cn.edu.pku.pkurunner/files/data.db`.
 ## Thanks
 
 本项目在生成伪造数据部分使用了来自[PKURunningHelper, zhongxinghong](https://github.com/zhongxinghong/PKURunningHelper)的代码.在此提出感谢.因此`generator/fake.py`应当使用与`PKURunningHelper`相同的许可.除此之外的代码均使用本项目下`LICENSE`文件的许可.
+
+## Q&A
+
+Q:
+    为什么在已安装未修改的PKU Runner的情况下无法安装此项目内的PKU Runner?
+A:
+    修改过的PKU Runner与原版本包名相同但应用签名不同.Android由于安全问题,会阻止新包的安装.
+
+Q:
+    为什么导出`data.db`再导回去后登录会失效,从而回到登录界面?
+A:
+    第一次登录后需要彻底退出PKU Runner,使其将登录信息写入`data.db`.随后再次打开PKU Runner方可导出.
