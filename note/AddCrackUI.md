@@ -7,8 +7,8 @@
 
 ```xml
     <PreferenceCategory android:title="@string/p_setting_crack">
-        <Preference android:title="@string/p_settings_crack_export" android:key="pref_export_db">
-        <Preference android:title="@string/p_settings_crack_import" android:key="pref_import_db">
+        <Preference android:title="@string/p_settings_crack_export" android:key="pref_export_db"/>
+        <Preference android:title="@string/p_settings_crack_import" android:key="pref_import_db"/>
     </PreferenceCategory>
 ```
 

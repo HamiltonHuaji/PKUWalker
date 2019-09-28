@@ -1,31 +1,31 @@
-APKTOOL = apktool
+pkurunner-v1.2.5_res.apk: pkurunner-v1.2.5_res
+	./apktool empty-framework-dir
+	./apktool b pkurunner-v1.2.5_res -o pkurunner-v1.2.5_res.apk
+	@echo "====================================="
+	@echo "built pkurunner-v1.2.5_res.apk"
+	@echo "if you want to get a signed apk, you must execute 'make sign'."
+	@echo "if you do not know the password for keystore, you can execute 'make tmp.keystore'."
 
-build/pkurunner-v1.2.4_res.apk :
-	$(APKTOOL) d build/pkurunner-v1.2.4_origin.apk -o build/pkurunner-v1.2.4_res
-	cd build/pkurunner-v1.2.4_res/ && patch -p2 < ../../pkurunner.patch
-	$(APKTOOL) empty-framework-dir
-	$(APKTOOL) b build/pkurunner-v1.2.4_res -o build/pkurunner-v1.2.4_res.apk
+pkurunner-v1.2.5_res: pkurunner-v1.2.5_origin
+	cp -r pkurunner-v1.2.5_origin pkurunner-v1.2.5_res
+	cd pkurunner-v1.2.5_res && patch -p1 < ../pkurunner.patch
+
+pkurunner-v1.2.5_origin: pkurunner-latest.apk
+	./apktool d pkurunner-latest.apk -o pkurunner-v1.2.5_origin
+
+pkurunner-latest.apk:
+	rm pkurunner-latest.apk* -rf
+	wget https://pkunewyouth.pku.edu.cn/public/apks/pkurunner-latest.apk
+
+patch: pkurunner-v1.2.5_origin pkurunner-v1.2.5_res
+	diff -Nuar pkurunner-v1.2.5_origin/ pkurunner-v1.2.5_res/ > pkurunner.patch
+
+sign: pkurunner-v1.2.5_res.apk tmp.keystore
+	jarsigner -keystore tmp.keystore -signedjar pkurunner-v1.2.5_res.apk pkurunner-v1.2.5_res.apk tmp.keystore
+
+tmp.keystore:
+	keytool -genkey -alias tmp.keystore -keyalg RSA -validity 20000 -keystore tmp.keystore
 
 .PHONY : clean
-clean :
-	rm -fr build/pkurunner-v1.2.4_res
-	rm build/pkurunner-v1.2.4_res.apk
-.PHONY : mod
-mod :
-	cd build/pkurunner-v1.2.4_res/ && patch -p2 < ../../pkurunner.patch
-.PHONY : apk
-apk :
-	$(APKTOOL) empty-framework-dir
-	$(APKTOOL) b build/pkurunner-v1.2.4_res -o build/pkurunner-v1.2.4_res.apk
-.PHONY : smali
-smali :
-	$(APKTOOL) d build/pkurunner-v1.2.4_origin.apk -o build/pkurunner-v1.2.4_res
-.PHONY : sign
-sign :
-	jarsigner -keystore tmp.keystore -signedjar build/pkurunner-v1.2.4_res.apk build/pkurunner-v1.2.4_res.apk tmp.keystore
-.PHONY : gen_sign
-gen_sign :
-	keytool -genkey -alias tmp.keystore -keyalg RSA -validity 20000 -keystore tmp.keystore
-# .PHONY : gen_patch
-# gen_patch :
-# 	diff -Nuar build/pkurunner-v1.2.4_res/  build/pkurunner-v1.2.4_patch/ > pkurunner.patch
+clean:
+	rm -fr pkurunner-latest.apk pkurunner-v1.2.5_origin pkurunner-v1.2.5_res pkurunner-v1.2.5_res.apk
