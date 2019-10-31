@@ -78,7 +78,7 @@ else:
         frequncy = 120
     else:
         frequncy = float(frequncy)
-tracks = fake.Record(distance, velocity, frequncy)
+tracks = fake.Record(distance*0.9031, velocity, frequncy) # 0.9031 to correct distance
 
 rid = dbm.append_record(cur, uid, dateUTC, tracks.distance*1000, tracks.duration, tracks.step)
 
