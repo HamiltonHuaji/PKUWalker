@@ -3,13 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+legacy/
+legacy
+
 # C extensions
 *.so
 
+*.apk
 # Distribution / packaging
 .Python
-build/pkurunner-v1.2.4_res
-build/pkurunner-v1.2.4_patch
+pkurunner-v1.2.5_res/
+pkurunner-v1.2.5_origin/
 develop-eggs/
 dist/
 downloads/
